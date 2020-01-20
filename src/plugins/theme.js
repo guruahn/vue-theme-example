@@ -17,7 +17,6 @@ const Theme = () => {
 
   const loadTheme = () => {
     const theme = searchQuery('theme');
-    console.log(theme)
     import(`@/views/scss/theme--${theme}.scss`).then(() => {
       loadedTheme(theme);
     }).catch(() => {
