@@ -1,0 +1,15 @@
+@import "@/views/scss/_variables.scss";
+.button {
+  display: inline-block;
+  background: $color-primary;
+  border: 1px solid transparent!important;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 9px 24px 11px 24px;
+  color: #fff;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  &:last-child { margin-right: 0; }
+}
